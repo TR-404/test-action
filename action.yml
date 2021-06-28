@@ -1,0 +1,10 @@
+name: 'Test action'
+description: 'Test action description'
+inputs:
+  data:
+    required: true
+outputs:
+  data:
+runs:
+  using: 'node12'
+  main: 'index.js'
