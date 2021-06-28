@@ -5,6 +5,7 @@ inputs:
     required: true
 outputs:
   data:
+    description: data output
 runs:
   using: 'node12'
   main: 'index.js'
